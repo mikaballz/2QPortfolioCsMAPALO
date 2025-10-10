@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang = "eng"> </html>
+<html lang = "eng"> 
     <head>
         <meta charset="UTF-8">
         <meta viewport content="width=device-width, initil-scale=1.0">
         <title></title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="../assets/freesmileyfaces1.png">
 
     </head>
     <body>
@@ -17,79 +19,3 @@
 </body>
 </html>
 
-
-body {
-    margin: 0;
-    font-family: "Poppins", Arial, sans-serif;
-    color: white;
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
-    
-    background: linear-gradient(135deg, #0f0f0f, #1a1a1a, #242424, #2f2f2f);
-    background-size: 400% 400%;
-    animation: gradientShift 12s ease infinite;
-  }
-  
-  
-  @keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  
-  
-  h1 {
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
-    color: #ffffff;
-  }
-  
-  
-  img {
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.15);
-    margin-bottom: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
-  }
-  
-  
-  p {
-    font-size: 1.1rem;
-    color: #ccc;
-    margin-bottom: 15px;
-  }
-  
-  
-  a {
-    color: #fff;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 12px 24px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease;
-    display: inline-block;
-    margin: 8px 0;
-    backdrop-filter: blur(8px);
-  }
-  
-  a:hover {
-    background: rgba(255, 255, 255, 0.8);
-    color: #111;
-    transform: scale(1.07);
-    box-shadow: 0 0 15px #ffffff, 0 0 30px #eaeaea;
-  }
