@@ -1,0 +1,93 @@
+
+
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a, #242424, #2f2f2f);
+    background-image: url("../assets/cyberpunkbackground.png");
+    
+}
+
+header, footer {
+    background-color: #150533;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+/*.text-block{
+    max-width: 800px;
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 0 10px; 
+}
+    */
+
+#main-title {
+    font-size: 2.5rem;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-size-adjust: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #ffffff;
+    
+}
+
+.intro {
+    color: #ccc;
+    line-height: 1.6;
+    font-size: 1.5em;       
+    margin-bottom: 0;          
+    text-decoration: underline;
+  }
+
+img {
+    border-radius: 12px;
+    margin: 20px;
+    align-items: center;
+  }
+
+section > img {
+    display: block;
+    width: 25vw;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.container ul {
+    list-style-type: none; /* to remove the bullets*/
+    clear: left; /* to remove the effect of float:left */
+ 
+}
+
+a[target="_blank"] {
+    background-color: pink;
+}
+
+a[href="/internal-page"] {
+    background-color:  rgb(pink, purple, blue);
+}
+
+a[href="0"] {
+    background-color:  rgb(pink, purple, blue);
+}
+
+a:hover {
+    background-color: rgb(197, 224, 248)
+}
+
+p {
+    color: #ffffff
+}
+
+ul {
+    color: #ffffff
+}
